@@ -13,18 +13,22 @@
   </head>
   <body>
     <div class="container">
-      <h3>Please answer each form with a 1 if you disagree, 2 if you are neutral, and a 3 if you agree with the question</h3>
-      <form>
+      <div class="jumbotron" id="header">
+        <h1>Find the best Epicodus Track for you!</h1>
+        <p>Please answer each form with a 1 if you agree, 2 if you are neutral, and a 3 if you disagree</p>
+
+      </div>
+      <form id="form-body">
         <div class="form-group">
-          <label for="question1">Question would go here</label>
+          <label for="question1">You prefer to create art for others to admire</label>
           <input required id="question1Input" class="form-control" type="number">
         </div>
         <div class="form-group">
-          <label for="question2"> Question would go here</label>
+          <label for="question2"> You like to make things that are visually stimulating </label>
           <input required id="question2Input" class="form-control" type="number">
         </div>
         <div class="form-group">
-          <label for="question3">Question would go here</label>
+          <label for="question3">You are not interested in tweaking large scale applications and programs that have already been established </label>
           <input required id="question3Input" class="form-control" type="number">
         </div>
         <div class="form-group">
@@ -35,7 +39,21 @@
           <label for="question5">Question would go here</label>
           <input required id="question5Input" class="form-control" type="number">
         </div>
-        <button type="submit" name="button">What Track Is Right For Me?</button>
+        <div class="form-group">
+          <label for="duh">You would love to get your hands dirty with code in a fast paced, collaborative environment!</label>
+          <select class="form-control">
+            <option>Let's do it!</option>
+            <option>duh</option>
+            <option>Of Course!</option>
+            <option>Yes, please!</option>
+            <option>I love to better myself, so yes</option>
+          </select>
+        </div>
+        <button type="submit" name="button">
+          <p id="buttText">
+          Click Here To Find Out What Track Is Right For You
+          </p>
+        </button>
       </form>
       <div id="bestTrack">
         <div class="cssDesign"

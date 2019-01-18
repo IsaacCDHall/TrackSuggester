@@ -1,20 +1,20 @@
 
 function cssDesign(question1, question2, question3, question4, question5) {
-  if((question1 + question2 + question3 + question4 + question5) <= 5 ) {
+  if((question1 + question2 + question3 + question4 + question5) <= 7 ) {
     return true
   } else {
     return false
   }
 }
 function javaRuby(question1, question2, question3, question4, question5) {
-  if((question1 + question2 + question3 + question4 + question5) <= 10 ) {
+  if((question1 + question2 + question3 + question4 + question5) <= 12 ) {
     return true
   } else {
     return false
   }
 }
 // function csharpPhp(question1, question2, question3, question4, question5) {
-//   if((question1 + question2 + question3 + question4 + question5) <= 15 ) {
+//   if((question1 + question2 + question3 + question4 + question5) >= 17 ) {
 //     return true
 //   } else {
 //     return false
@@ -34,29 +34,30 @@ $(document).ready(function() {
     let question3 = parseInt($('#question3Input').val());
     let question4 = parseInt($('#question4Input').val());
     let question5 = parseInt($('#question5Input').val());
-    let result = ""
+    // let result = ""
 
     if (cssDesign(question1, question2, question3, question4, question5) === true) {
       console.log("CSS True");
-      // result = "Css and Design";
+      // result = "Css and Design"; saving this as reference for another solution to display
       $(".cssDesign").show();
       $(".javaRuby").hide();
       $(".csharpPhp").hide();
     } else if(javaRuby(question1, question2, question3, question4, question5) === true) {
       console.log("javaRuby True");
-      // result = "Java/Ruby Track";
+      // result = "Java/Ruby Track"; saving this as reference for another solution to display
       $(".cssDesign").hide();
       $(".javaRuby").show();
       $(".csharpPhp").hide();
     } else {
-      console.log("else statement");
-      // result = "C# and PHP";
+      console.log("else statement trigger");
+      // result = "C# and PHP"; saving this as reference for another solution to display
       $(".cssDesign").hide();
       $(".javaRuby").hide();
       $(".csharpPhp").show();
     }
 
 
-    // $("#bestTrack").text(result);
+    // $("#bestTrack").text(result); saving this as reference for another solution to display
+
   });
 });

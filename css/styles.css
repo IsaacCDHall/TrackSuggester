@@ -1,5 +1,5 @@
-h3 {
-  background-color: green;
+h1 {
+  text-align: center;
 }
 
 body{
@@ -13,4 +13,26 @@ label{
 .cssDesign, .javaRuby, .csharpPhp{
 background-color: green;
 display: none;
+}
+
+button{
+  color: red;
+  padding: 2em 2em 2em 2em;
+  text-align: center;
+  background-color: rgba(0, 255, 0, 0.5);
+  text-decoration-style:wavy;
+  text-shadow: 10px;
+}
+#buttText{
+  color:black;
+}
+
+#header{
+  color:rgba(0, 0, 255, 0.5);
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+form#form-body{
+  color:rgba(0, 255, 0, .7);
+  background-color: rgba(0, 0, 255, .8);
 }
