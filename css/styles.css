@@ -3,12 +3,12 @@ h1 {
 }
 
 body{
-  background-image: url(../img/path.jpg);
+  background-image: linear-gradient(to bottom right,rgba(0, 255, 0, 0.5), rgba(0, 0, 255, .55));
   background-size: cover;
   background-repeat: no-repeat;
 }
 label{
-  background-color:green;
+  background-color:rgba(255, 0, 0, 0.5);
 }
 .cssDesign, .javaRuby, .csharpPhp{
 background-color: green;
@@ -19,7 +19,7 @@ button{
   color: red;
   padding: 2em 2em 2em 2em;
   text-align: center;
-  background-color: rgba(0, 255, 0, 0.5);
+  background-color: rgba(255, 0, 0, 0.55);
   text-decoration-style:wavy;
   text-shadow: 10px;
 }
@@ -29,10 +29,5 @@ button{
 
 #header{
   color:rgba(0, 0, 255, 0.5);
-  background-color: rgba(0, 255, 0, 0.5);
-}
-
-form#form-body{
-  color:rgba(0, 255, 0, .7);
-  background-color: rgba(0, 0, 255, .8);
+  background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.5), rgba(0, 255, 0, 0.5));
 }
