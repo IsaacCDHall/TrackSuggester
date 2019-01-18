@@ -34,11 +34,12 @@ button{
 #header{
   color:rgba(0, 0, 255, 0.5);
   background-image: linear-gradient(to bottom right,rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
-  padding: -1em -1em -1em -1em;
 }
 
 #underline{
-  text-decoration: underline;
+font-weight:400;
+  color: rgba(255, 0, 0, 0.7);
+  font-family: monospace;
 }
 
 #DIRT{
