@@ -3,7 +3,7 @@ h1 {
 }
 
 body{
-  background-image: linear-gradient(to bottom right,rgba(0, 255, 0, 0.5), rgba(0, 0, 255, .55));
+  background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.5), rgba(0, 255, 0, .55));
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11,13 +11,16 @@ label{
   background-color:rgba(255, 0, 0, 0.5);
 }
 .cssDesign, .javaRuby, .csharpPhp{
-background-color: green;
+background-color: rgba(255, 0, 0, 0.5);
+font-size: 2em;
+font-style: italic;
+font-weight: heavy;
 display: none;
 }
 
 button{
   color: red;
-  padding: 2em 2em 2em 2em;
+  padding: 1em 1em 1em 1em;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.55);
   text-decoration-style:wavy;
@@ -29,5 +32,10 @@ button{
 
 #header{
   color:rgba(0, 0, 255, 0.5);
-  background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.5), rgba(0, 255, 0, 0.5));
+  background-image: linear-gradient(to bottom right,rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+  padding: -1em -1em -1em -1em;
+}
+
+#underline{
+  text-decoration: underline;
 }

@@ -42,18 +42,21 @@ $(document).ready(function() {
       $(".cssDesign").show();
       $(".javaRuby").hide();
       $(".csharpPhp").hide();
+      $("#form-body").hide();
     } else if(javaRuby(question1, question2, question3, question4, question5) === true) {
       console.log("javaRuby True");
       // result = "Java/Ruby Track"; saving this as reference for another solution to display
       $(".cssDesign").hide();
       $(".javaRuby").show();
       $(".csharpPhp").hide();
+      $("#form-body").hide();
     } else {
       console.log("else statement trigger");
       // result = "C# and PHP"; saving this as reference for another solution to display
       $(".cssDesign").hide();
       $(".javaRuby").hide();
       $(".csharpPhp").show();
+      $("#form-body").hide();
     }
 
 
