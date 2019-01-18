@@ -4,7 +4,6 @@ h1 {
 h2{
   text-align: right;
 }
-
 body{
   background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.5), rgba(0, 255, 0, .55));
   background-size: cover;
@@ -20,8 +19,6 @@ font-style: italic;
 font-weight: bold;
 display: none;
 }
-
-
 button{
   color: red;
   padding: 1em 1em 1em 1em;
@@ -43,14 +40,11 @@ button{
   background-image: linear-gradient(to bottom right,rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
   display:none;
 }
-
 #mono{
 font-weight:400;
   color: rgba(255, 0, 0, 0.7);
   font-family: monospace;
-
 }
-
 #DIRT{
   font-size: 15px;
   font-family:fantasy;
