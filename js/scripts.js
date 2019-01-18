@@ -1,13 +1,13 @@
 
 function cssDesign(question1, question2, question3, question4, question5) {
-  if((question1 + question2 + question3 + question4 + question5) <= 7 ) {
+  if((question1 + question2 + question3 + question4 + question5) <= 8 ) {
     return true
   } else {
     return false
   }
 }
 function javaRuby(question1, question2, question3, question4, question5) {
-  if((question1 + question2 + question3 + question4 + question5) <= 12 ) {
+  if((question1 + question2 + question3 + question4 + question5) <= 13 ) {
     return true
   } else {
     return false

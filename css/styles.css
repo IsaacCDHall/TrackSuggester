@@ -14,9 +14,10 @@ label{
 background-color: rgba(255, 0, 0, 0.5);
 font-size: 2em;
 font-style: italic;
-font-weight: heavy;
+font-weight: bold;
 display: none;
 }
+
 
 button{
   color: red;
@@ -38,4 +39,17 @@ button{
 
 #underline{
   text-decoration: underline;
+}
+
+#DIRT{
+  font-size: 15px;
+  font-family:fantasy;
+}
+.cursive{
+  font-family: cursive;
+}
+#long-break{
+  display:block;
+  content:"";
+  margin-top: 20em;
 }
