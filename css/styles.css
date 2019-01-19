@@ -55,7 +55,7 @@ font-weight:400;
 .cursive{
   font-family: cursive;
 }
-#long-break{
+.long-break{
   display:block;
   content:"";
   margin-top: 20em;
